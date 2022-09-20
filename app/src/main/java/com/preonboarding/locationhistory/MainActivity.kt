@@ -5,4 +5,4 @@ import com.preonboarding.locationhistory.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main)
 
-// mapTest2
+// mapTest3
