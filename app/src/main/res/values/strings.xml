@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">android-wanted-LocationHistoryApp</string>
+
+    <string name="address">주소</string>
+    <string name="history">히스토리</string>
+    <string name="date">날짜</string>
+    <string name="latitude">위도</string>
+    <string name="longitude">경도</string>
+    <string name="set_time">설정</string>
+    <string name="set_time_save">저장 간격</string>
+    <string name="set_time_min">분</string>
+    <string name="set_time_dialog_warning">1이상의 숫자를 입력해주세요</string>
+    <string name="set_time_cancel">취소</string>
+    <string name="set_time_positive">확인</string>
+
+    <string name="splash_title">위치정보</string>
+    <string name="splash_sub_title">App</string>
+
+    <string name="location_for_date">날짜별 위치</string>
+
+    <string name="ask_location_permission">현재 위치를 확인하시려면 위치 권한을 허용해주세요.</string>
+    <string name="cancel">취소</string>
+    <string name="check">확인</string>
+    <string name="go_setting">설정으로 이동</string>
+    <string name="history_dialog">historyDialog</string>
+    <string name="setting_dialog">settingDialog</string>
+
+    <string name="ask_gps_on">GPS를 켜주세요</string>
+    <string name="currentPosition">현재 위치</string>
+
+    <string name="failed_to_get_location">현재 위치를 받아올 수 없습니다.</string>
+    <string name="location_permission_access">위치 권한이 허용되었습니다.</string>
+    <string name="location_permission_denied">위치 권한이 거절되었습니다.</string>
+    <string name="no_detail_location">상세 주소를 찾을 수 없습니다.</string>
+
+    <string name="see_address">주소 보기</string>
+    <string name="address_name">장소명</string>
 </resources>

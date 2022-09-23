@@ -14,4 +14,6 @@ ext {
     hilt_version = "2.42"
     room_version = "2.4.3"
     kotlin_version = "1.6.21"
+    coroutine_version = "1.6.3"
+    gps_version = "17.0.0"
 }

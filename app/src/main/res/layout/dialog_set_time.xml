@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:padding="20dp"
+        android:layout_height="300dp">
+
+        <EditText
+            android:layout_marginStart="5dp"
+            android:id="@+id/edit_set_text"
+            style="@style/Content"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="@id/tv_set_time_save"
+            app:layout_constraintStart_toEndOf="@id/tv_set_time_save"
+            app:layout_constraintTop_toTopOf="@id/tv_set_time_save" />
+
+        <TextView
+            android:id="@+id/tv_set_time_save"
+            style="@style/Content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/set_time_save"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_div" />
+
+        <TextView
+            android:id="@+id/tv_set_time"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/tv_set_time_min"
+            style="@style/Content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/set_time_min"
+            app:layout_constraintBottom_toBottomOf="@id/edit_set_text"
+            app:layout_constraintStart_toEndOf="@id/edit_set_text"
+            app:layout_constraintTop_toTopOf="@id/edit_set_text" />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:id="@+id/view_div"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_set_time" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_set_time_cancel"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_color"
+            android:text="@string/set_time_cancel"
+            app:layout_constraintStart_toStartOf="@id/tv_set_time_save"
+            app:layout_constraintTop_toBottomOf="@id/tv_set_time_save" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_set_time_positive"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@color/button_color"
+            android:text="@string/set_time_positive"
+            app:layout_constraintBottom_toBottomOf="@id/btn_set_time_cancel"
+            app:layout_constraintStart_toEndOf="@id/btn_set_time_cancel"
+            app:layout_constraintTop_toTopOf="@id/btn_set_time_cancel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

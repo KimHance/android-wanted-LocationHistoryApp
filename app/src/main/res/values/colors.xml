@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- 컴포넌트 색상 -->
+    <color name="button_color">#B6C3A2</color>
+    <color name="main_color">#A2D5EC</color>
 </resources>
